@@ -1,0 +1,26 @@
+body {
+
+    margin: 20px;
+    
+}
+.profile {
+display: flex;
+padding: 20px;
+justify-content: space-around;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background: #ffac2f;
+color: #2b2839;
+border-bottom: 2px solid #d8cefe;
+}
+.avatar{
+width: 150px;
+border-radius: 100px;
+border: 4px groove grey;
+
+} 
+.border-blue   {
+  border: 1px dotted blue;
+}

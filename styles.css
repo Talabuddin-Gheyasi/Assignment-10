@@ -1,0 +1,158 @@
+/* body {
+
+    margin: 20px;
+    
+}
+.profile {
+display: flex;
+padding: 20px;
+justify-content: space-around;
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+background: #ffac2f;
+color: #2b2839;
+border-bottom: 2px solid #d8cefe;
+}
+.avatar{
+width: 150px;
+border-radius: 100px;
+border: 4px groove grey;
+
+} 
+.border-blue   {
+  border: 1px dotted blue;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ 
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background: radial-gradient(White, skyblue);
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+ a{
+  text-decoration: non;
+  color: #555;
+
+}
+p{
+  color: #555;
+
+}
+  .logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .info {
+    margin: 20px;
+  }
+
+  .avatar{
+    max-width: 150px;
+    border-radius: 100px;
+    border: 4px groove grey;}
+
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+  .col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+  }
+  .col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+    border-style: 20px solid greenyellow;
+      }
+.col-2 h1{
+font-size: 50px;
+line-height: 60px;
+margin: 25px 0;
+}
+
+
+.btn{
+  display: inline-block;
+  background-color: blanchedalmond;
+  color: rgb(0, 0, 0);
+  padding: 8px 30px;
+
+}
+
+.btn :hover{
+  background-color: blueviolet;
+}
+.header{
+  background:radial-gradient(skyblue, white);
+}
+
+.footer {
+  display:flex;
+  align-items: center;
+  max-height: 400px;
+  background-color: aquamarine;
+}
+
+.wel {
+text-shadow: 0 3px orange;
+}
+
+.categories{
+  margin: 70px 0;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+  
+}
+.col-3 Img {
+  width: 100%;
+  max-width: 100px;}
+
+  .small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right:  25px;
+  }
+
+
+
+
